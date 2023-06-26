@@ -1,11 +1,12 @@
-import { Header, Footer } from "./components"
+import { Header, Hero, Footer } from "./components"
 
 function App() {
   return (
-   <>
-    <Header/>
-    <Footer/>
-   </>
+   <div className="bg-neutral-200 font-poppins">
+      <Header/>
+      <Hero/>
+      <Footer/>
+   </div>
   )
 }
 

@@ -11,8 +11,8 @@ export default {
       'secondary': '#7FBA00',
       'neutral-1' : '#797979',
       'neutral-2' : '#404040',
-      'dark-blue': '#003366',
-      'dark-green': '74A903',
+      'dark-blue': '#04294E',
+      'dark-green': '#74A903',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
