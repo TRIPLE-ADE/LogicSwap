@@ -2,7 +2,6 @@ import { useState } from "react"
 import { NavLinks } from "../constants"
 import { FaBars, FaTimes } from "react-icons/fa"
 import { headerLogo } from "../assets"
-import { section } from "../style"
 
 const Header = () => {
     // toggle state handler
@@ -13,14 +12,14 @@ const Header = () => {
     setToggle(prev => !prev)
   }
   return (
-    <header className={`${section.padding} ${toggle ? 'fixed left-0 right-0 z-50' : ''}`}>
+    <header className={`px-6 py-6 min-[900px]:px-16 min-[1024px]:px-24 ${toggle ? 'fixed left-0 right-0 z-50' : ''}`}>
         <nav className="flex items-center justify-between text-dark-blue">
             <div className="logo">
                 <img src={headerLogo} alt='LogiSwap Logo' />
             </div>
             <div>
                 {/* desktop navbar */}
-                <ul className='font-bold font-quicksand hidden gap-4 sm:flex sm:flex-row'>
+                <ul className='hidden gap-4 font-bold font-quicksand sm:flex sm:flex-row'>
                     {NavLinks.map(navLink => (<li key={navLink.id} className="hover:text-neutral-2"><a href={navLink.link} >{navLink.title}</a></li>))}
                 </ul>
             </div>
