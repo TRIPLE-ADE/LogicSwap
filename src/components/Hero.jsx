@@ -1,8 +1,8 @@
 import { section } from "../style"
 const Hero = () => {
   return (
-    <section className="bg-neutral-200">
-       <div className={`${section.flexCenter} ${section.padding} sm:items-center justify-center text-center min-h-[90vh] sm:w-4/5 md:w-[70%] m-auto`}>
+    <section className="pt-10 bg-neutral-200">
+       <div className={`${section.flexCenter} ${section.padding} sm:items-center text-center min-h-[90vh] sm:w-4/5 md:w-[70%] m-auto`}>
             <p className="text-lg font-semibold text-primary">Transforming Ideas into Digital Success</p>
             <h1 className="my-2 text-3xl font-bold sm:text-5xl font-quicksand">Expert IT Solutions for Your Business Needs!</h1>
             <p className="text-neutral-2">We provide comprehensive web programming, cyber IT consulting, and networking services to help your business succeed.</p>
