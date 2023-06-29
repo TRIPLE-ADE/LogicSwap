@@ -117,13 +117,13 @@ export const TestimonialsData = [
     {
       name: 'Jane Smith',
       company: 'XYZ Corporation',
-      message: 'Sed condimentum tincidunt dolor, nec auctor risus. Curabitur sit amet gravida neque, a pharetra velit. Maecenas blandit odio vitae aliquam rhoncus. Sed convallis neque enim, vitae sagittis massa hendrerit a.',
+      message: 'Sed condimentum tincidunt dolor, nec auctor risus. Curabitur sit amet gravida neque, a pharetra velit. Maecenas blandit odio vitae aliquam rhoncus. Sed convallis neque enim, vitae sagittis massa hendrerit.',
       image: pic1,
     },
     {
       name: 'Jane Smith',
       company: 'XYZ Corporation',
-      message: 'Sed condimentum tincidunt dolor, nec auctor risus. Curabitur sit amet gravida neque, a pharetra velit. Maecenas blandit odio vitae aliquam rhoncus. Sed convallis neque enim, vitae sagittis massa hendrerit a.',
+      message: 'Sed condimentum tincidunt dolor, nec auctor risus. Curabitur sit amet gravida neque, a pharetra velit. Maecenas blandit odio vitae aliquam rhoncus. Sed convallis neque enim, vitae sagittis massa hendrerit.',
       image: pic1,
     },
 ]
