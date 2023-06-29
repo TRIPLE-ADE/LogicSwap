@@ -105,6 +105,28 @@ export const AboutSection = [
         ]
     }
 ]
+
+export const TestimonialsData = [
+    {
+      name: 'John Doe',
+      company: 'ABC Company',
+      message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat justo non libero tincidunt tincidunt. Proin tristique, nisi sit amet bibendum interdum, turpis tortor tincidunt tellus, ut lacinia enim massa a justo.',
+      image: 'https://example.com/john-doe.jpg',
+    },
+    {
+      name: 'Jane Smith',
+      company: 'XYZ Corporation',
+      message: 'Sed condimentum tincidunt dolor, nec auctor risus. Curabitur sit amet gravida neque, a pharetra velit. Maecenas blandit odio vitae aliquam rhoncus. Sed convallis neque enim, vitae sagittis massa hendrerit a.',
+      image: 'https://example.com/jane-smith.jpg',
+    },
+    {
+      name: 'Jane Smith',
+      company: 'XYZ Corporation',
+      message: 'Sed condimentum tincidunt dolor, nec auctor risus. Curabitur sit amet gravida neque, a pharetra velit. Maecenas blandit odio vitae aliquam rhoncus. Sed convallis neque enim, vitae sagittis massa hendrerit a.',
+      image: 'https://example.com/jane-smith.jpg',
+    },
+]
+
 export const SocialLinks = [
     {
         id: 1,
