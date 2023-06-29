@@ -1,11 +1,13 @@
 import Header from "./Header";
 import Hero from "./Hero";
-import Footer from "./Footer";
 import Services from "./Services";
+import About from "./About";
+import Footer from "./Footer";
 
 export{
     Header,
-    Footer,
     Hero,
     Services,
+    About,
+    Footer,
 }
