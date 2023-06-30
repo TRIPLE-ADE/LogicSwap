@@ -12,7 +12,7 @@ const Header = () => {
     setToggle(prev => !prev)
   }
   return (
-    <header className={`px-6 py-6 min-[900px]:px-16 min-[1024px]:px-24 ${toggle ? 'fixed left-0 right-0 z-50' : ''}`}>
+    <header className={`fixed left-0 right-0 px-6 py-6 bg-neutral-200 min-[900px]:px-16 min-[1024px]:px-24 ${toggle ? 'fixed left-0 right-0 z-50' : ''}`}>
         <nav className="flex items-center justify-between text-dark-blue">
             <div className="logo">
                 <img src={headerLogo} alt='LogiSwap Logo' />
