@@ -4,7 +4,7 @@ import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
 const Testimonials = () => {
   return (
-    <section className={`${section.padding} text-center bg-white`}>
+    <section className={`${section.padding} text-center bg-white`} id="testimonial">
       <h2 className={`${section.sectionHeading}`}>Testimonials</h2>
       <p className={`${section.sectionSubHeading} mb-10`}>
         Hear from our satisfied customers and clients

@@ -9,13 +9,13 @@ export const NavLinks = [
     },
     {
         id: 2,
-        title: "About",
-        link: "#about",
+        title: "Services",
+        link: "#services",
     },
     {
         id: 3,
-        title: "Services",
-        link: "#services",
+        title: "About",
+        link: "#about",
     },
     {
         id: 4,
