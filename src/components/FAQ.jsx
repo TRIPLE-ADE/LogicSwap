@@ -11,7 +11,7 @@ const Faq = () => {
     };
 
   return (
-    <section className={`${section.padding}`}>
+    <section className={`${section.padding}`} id="faq">
         <h2 className={`${section.sectionHeading} text-center`}>Frequently Asked Questions</h2>
         <p className={`${section.sectionSubHeading} mb-10`}>Got questions? We have answers</p>
         <div className="space-y-4">
