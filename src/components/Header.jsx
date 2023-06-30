@@ -12,7 +12,7 @@ const Header = () => {
     setToggle(prev => !prev)
   }
   return (
-    <header className={`fixed left-0 right-0 px-6 py-6 bg-neutral-200 min-[900px]:px-16 min-[1024px]:px-24 ${toggle ? 'fixed left-0 right-0 z-50' : ''}`}>
+    <header className={`fixed left-0 right-0 z-50 px-6 py-6 bg-neutral-200 min-[900px]:px-16 min-[1024px]:px-24`}>
         <nav className="flex items-center justify-between text-dark-blue">
             <div className="logo">
                 <img src={headerLogo} alt='LogiSwap Logo' />
@@ -31,7 +31,7 @@ const Header = () => {
             {/* mobile navbar with toggle condition*/}
             {
                 toggle && 
-                <div className='fixed left-0 z-20 w-full min-h-full text-2xl font-bold text-center font-quicksand top-20 sidebar'>
+                <div className='bg-neutral-200 fixed left-0 z-20 w-full min-h-full text-2xl font-bold text-center font-quicksand top-20 sidebar'>
                 <ul>
                     {NavLinks.map(navLink => (<li key={navLink.id} className="my-10"><a href={navLink.link} onClick={handleModal} >{navLink.title}</a></li>))}
                 </ul>
