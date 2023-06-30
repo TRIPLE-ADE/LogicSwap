@@ -1,7 +1,7 @@
 import { section } from "../style"
 const Hero = () => {
   return (
-    <section className="bg-neutral-200">
+    <section className="bg-neutral-200" id="home">
        <div className={`${section.flexCenter} ${section.padding} sm:items-center justify-center text-center min-h-[100vh] sm:w-4/5 md:w-[70%] m-auto`}>
             <p className="text-lg font-semibold text-primary">Transforming Ideas into Digital Success</p>
             <h1 className="my-2 text-3xl font-bold sm:text-5xl font-quicksand">Expert IT Solutions for Your Business Needs!</h1>
