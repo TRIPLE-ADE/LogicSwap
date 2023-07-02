@@ -31,7 +31,7 @@ const Header = () => {
             {/* mobile navbar with toggle condition*/}
             {
                 toggle && 
-                <div className='bg-neutral-200 fixed left-0 z-20 w-full min-h-full text-2xl font-bold text-center font-quicksand top-20 sidebar'>
+                <div className='fixed left-0 z-20 w-full min-h-full text-2xl font-bold text-center bg-neutral-200 font-quicksand top-20 sidebar'>
                 <ul>
                     {NavLinks.map(navLink => (<li key={navLink.id} className="my-10"><a href={navLink.link} onClick={handleModal} >{navLink.title}</a></li>))}
                 </ul>
