@@ -14,7 +14,7 @@ const Faq = () => {
     <section className={`${section.padding} scroll-m-10`} id="faq">
         <h2 className={`${section.sectionHeading} text-center`}>Frequently Asked Questions</h2>
         <p className={`${section.sectionSubHeading} mb-10`}>Got questions? We have answers</p>
-        <div className="space-y-4 sm:w-[80%] md:w-[70%] m-auto">
+        <div className="space-y-4 sm:w-[80%] m-auto">
             {FaqData.map((item, index) => (
             <div key={index} className="p-4 border border-black rounded">
                 <div
