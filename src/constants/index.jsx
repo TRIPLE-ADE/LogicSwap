@@ -62,7 +62,7 @@ export const AboutSection = [
     {
         id: 1,
         heading: 'Who we are',
-        text: `At Tech Swap, we are a team of experienced professionals dedicated
+        text: `At Logic Swap, we are a team of experienced professionals dedicated
         to providing exceptional technology solutions to businesses of all
         sizes. With a deep understanding of the industry and a passion for
         delivering high-quality work, we have built a reputation for excellence
@@ -71,7 +71,7 @@ export const AboutSection = [
     {
         id: 2,
         heading: 'Our Background',
-        text: `With [number of years] years of experience in the technology sector, we
+        text: `With five years of experience in the technology sector, we
         have witnessed the evolution of the digital landscape and the
         transformative power of technology. Our journey has allowed us to refine
         our skills, expand our knowledge, and stay ahead of the curve in a
