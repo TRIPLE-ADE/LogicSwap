@@ -17,9 +17,9 @@ const Header = () => {
         const scrollPosition = window.scrollY;
 
         if (scrollPosition >= heroSectionHeight) {
-        sethasBackground(false); // Move out of hero section
+        sethasBackground(true); // Move out of hero section
         } else {
-        sethasBackground(true); // Inside hero section
+        sethasBackground(false); // Inside hero section
         }
     };
 
@@ -35,7 +35,7 @@ const Header = () => {
     setToggle(prev => !prev)
   }
   return (
-    <header className={`fixed left-0 right-0 z-50 px-6 py-6 min-[900px]:px-16 min-[1024px]:px-24 ${hasBackground ? '' : 'bg-neutral-200 shadow-xl'}`}  style={{backgroundImage: hasBackground ?  `url(${hero})` : `none`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+    <header className={`fixed left-0 right-0 z-50 px-6 py-6 min-[900px]:px-16 min-[1024px]:px-24 ${hasBackground ? 'bg-neutral-200 shadow-xl' : 'shadow-md'}`}  style={{backgroundImage: hasBackground ?  `none` : `url(${hero})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <nav className="flex items-center justify-between text-dark-blue">
             <div className="logo">
                 <img src={headerLogo} alt='LogiSwap Logo' />
