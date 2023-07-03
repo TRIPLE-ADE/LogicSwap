@@ -12,14 +12,14 @@ const Footer = () => {
             <section>
                 <h5 className={`${section.footerHeading}`}>Quick Links</h5>
                 <ul className={`${section.flexCenter}`}>
-                    {NavLinks.map(navLink => (<li key={navLink.id}><a href={navLink.link} className='hover:text-neutral-1' >{navLink.title}</a></li>))}
+                    {NavLinks.map(navLink => (<li key={navLink.id}><a href={navLink.link} className='hover:text-primary' >{navLink.title}</a></li>))}
                 </ul>
             </section>
             <section>
                 <h5 className={`${section.footerHeading}`}>Support</h5>
                 <ul className={`${section.flexCenter}`}>
                     <li>
-                        <a href="#faq" className='hover:text-neutral-1'>FAQ</a>
+                        <a href="#faq" className='hover:text-primary'>FAQ</a>
                     </li>
                 </ul>
             </section>
@@ -28,7 +28,7 @@ const Footer = () => {
                 <div  className={`${section.flexCenter}`}>
                     <div className='flex justify-center gap-5 sm:justify-start'>
                         {SocialLinks.map((socialLink) => (
-                            <a key={socialLink.id} href={socialLink.link} target='_blank' rel='noreferrer' className='hover:text-neutral-1'>
+                            <a key={socialLink.id} href={socialLink.link} target='_blank' rel='noreferrer' className=':hover:text-primary'>
                                 {socialLink.icon}
                             </a>
                         ))}
