@@ -1,5 +1,5 @@
 import { FaTwitter, FaLinkedinIn, FaInstagram, FaCode, FaShieldAlt, FaLightbulb, FaLaptopCode, FaNetworkWired   } from "react-icons/fa" 
-import { pic1 } from "../assets"
+import { client1, client2, client3, pic1 } from "../assets"
 
 export const NavLinks = [
     {
@@ -168,6 +168,21 @@ export const FaqData = [
     {
         question: "Can you provide training or documentation for using the web or mobile applications you develop?",
         answer: "Yes, we provide comprehensive training and documentation for using the web or mobile applications we develop. Our goal is to ensure that you and your team have the necessary knowledge and resources to effectively use and maintain the applications we deliver."
+    }
+]
+
+export const CompanyLogosData = [
+    {
+        index: 1,
+        logo: client1,
+    },
+    {
+        index: 2,
+        logo: client2,
+    },
+    {
+        index: 3,
+        logo: client3,
     }
 ]
 
