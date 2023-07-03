@@ -4,7 +4,7 @@ import { section } from '../style'
 
 const Footer = () => {
   return (
-    <footer className='bg-dark-blue text-white'>
+    <footer className='text-white bg-dark-blue'>
         <div className={`${section.flexCenter} sm:grid sm:grid-cols-4 ${section.padding}`}>
             <section className='text-white'>
                 <img src={footerLogo} alt="LogiSwap Logo" />
@@ -33,7 +33,7 @@ const Footer = () => {
                             </a>
                         ))}
                     </div>
-                    <button className={`${section.button}`}><a href="mailto:">Contact Us</a></button>
+                    <button className={`${section.button}`}><a href="mailto:logicswaptech@gmail.com">Contact Us</a></button>
                 </div>
             </section>
         </div>

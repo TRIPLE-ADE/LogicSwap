@@ -175,16 +175,16 @@ export const SocialLinks = [
     {
         id: 1,
         icon: <FaTwitter/>,
-        link: 'https://twitter.com/'
+        link: '#'
     },
     {
         id: 2,
         icon: <FaLinkedinIn/>,
-        link: 'https://www.linkedin.com/in/'
+        link: '#'
     },
     {
         id: 3,
         icon: <FaInstagram/>,
-        link: 'https://'
+        link: '#'
     },
 ]
