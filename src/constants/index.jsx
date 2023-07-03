@@ -1,5 +1,5 @@
 import { FaTwitter, FaLinkedinIn, FaInstagram, FaCode, FaShieldAlt, FaLightbulb, FaLaptopCode, FaNetworkWired   } from "react-icons/fa" 
-import { client1, client2, client3, pic1 } from "../assets"
+import { client1, client2, client3 } from "../assets"
 
 export const NavLinks = [
     {
@@ -109,22 +109,19 @@ export const AboutSection = [
 
 export const TestimonialsData = [
     {
-      name: 'John Doe',
-      company: 'ABC Company',
-      message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat justo non libero tincidunt tincidunt. Proin tristique, nisi sit amet bibendum interdum, turpis tortor tincidunt tellus, ut lacinia enim massa a justo.',
-      image: pic1,
+      name: 'The Manager',
+      company: 'Londri Pad',
+      message: "Working with Logic Swap Tech Solutions was a game-changer for our business. Their expertise and innovative solutions have significantly improved our operations and customer experience"
     },
     {
-      name: 'Jane Smith',
-      company: 'XYZ Corporation',
-      message: 'Sed condimentum tincidunt dolor, nec auctor risus. Curabitur sit amet gravida neque, a pharetra velit. Maecenas blandit odio vitae aliquam rhoncus. Sed convallis neque enim, vitae sagittis massa hendrerit.',
-      image: pic1,
+      name: 'The Members',
+      company: 'Association',
+      message: 'We are extremely satisfied with the outstanding service provided by Logic Swap Tech Solutions. Their professionalism, attention to detail, and prompt communication have made them a valuable partner.',
     },
     {
-      name: 'Jane Smith',
-      company: 'XYZ Corporation',
-      message: 'Sed condimentum tincidunt dolor, nec auctor risus. Curabitur sit amet gravida neque, a pharetra velit. Maecenas blandit odio vitae aliquam rhoncus. Sed convallis neque enim, vitae sagittis massa hendrerit.',
-      image: pic1,
+      name: 'The Chair Leaders',
+      company: 'Association',
+      message: "Logic Swap Tech Solutions has truly exceeded our expectations. Their team's technical proficiency, dedication, and commitment to delivering exceptional results have been instrumental in our success.",
     },
 ]
 
