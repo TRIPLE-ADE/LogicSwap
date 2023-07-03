@@ -12,23 +12,28 @@ const Footer = () => {
             <section>
                 <h5 className={`${section.footerHeading}`}>Quick Links</h5>
                 <ul className={`${section.flexCenter}`}>
-                    {NavLinks.map(navLink => (<li key={navLink.id}><a href={navLink.link} >{navLink.title}</a></li>))}
+                    {NavLinks.map(navLink => (<li key={navLink.id}><a href={navLink.link} className='hover:text-neutral-1' >{navLink.title}</a></li>))}
                 </ul>
             </section>
             <section>
                 <h5 className={`${section.footerHeading}`}>Support</h5>
                 <ul className={`${section.flexCenter}`}>
-                    <li>FAQ</li>
+                    <li>
+                        <a href="#faq" className='hover:text-neutral-1'>FAQ</a>
+                    </li>
                 </ul>
             </section>
             <section>
                 <h5 className={`${section.footerHeading}`}>Contact</h5>
-                <div className='flex justify-center gap-5 sm:justify-start'>
-                    {SocialLinks.map((socialLink) => (
-                        <a key={socialLink.id} href={socialLink.link} target='_blank' rel='noreferrer'>
-                            {socialLink.icon}
-                        </a>
-                    ))}
+                <div  className={`${section.flexCenter}`}>
+                    <div className='flex justify-center gap-5 sm:justify-start'>
+                        {SocialLinks.map((socialLink) => (
+                            <a key={socialLink.id} href={socialLink.link} target='_blank' rel='noreferrer' className='hover:text-neutral-1'>
+                                {socialLink.icon}
+                            </a>
+                        ))}
+                    </div>
+                    <button className={`${section.button}`}><a href="mailto:">Contact Us</a></button>
                 </div>
             </section>
         </div>
