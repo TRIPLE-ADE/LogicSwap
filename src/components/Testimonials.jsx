@@ -12,15 +12,10 @@ const Testimonials = () => {
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {TestimonialsData.map((item, index) => (
           <div key={index} className="p-4 border rounded">
-            <div className="flex gap-3 mb-4">
-              <img
-                src={item.image}
-                alt={item.name}
-                className="object-cover w-10 h-10 rounded-full"
-              />
+            <div className="flex justify-center gap-3 mb-4">
               <div>
                 <p className="font-semibold text-gray-600">{item.name}</p>
-                <p className="text-sm text-gray-500">{item.company}</p>
+                <p className="text-sm text-gray-500 uppercase">{item.company}</p>
               </div>
             </div>
             <div className="flex">
