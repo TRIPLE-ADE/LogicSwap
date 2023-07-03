@@ -1,5 +1,5 @@
-import { FaTwitter, FaLinkedinIn, FaInstagram, FaCode, FaShieldAlt, FaLightbulb, FaLaptopCode, FaNetworkWired   } from "react-icons/fa" 
-import { client1, client2, client3 } from "../assets"
+import { FaTwitter, FaLinkedinIn, FaInstagram, FaCode, FaShieldAlt, FaLightbulb, FaLaptopCode, FaNetworkWired, FaAward, FaHandsHelping, FaGraduationCap, FaUsers, FaCogs   } from "react-icons/fa" 
+import { about, mission, client1, client2, client3 } from "../assets"
 
 export const NavLinks = [
     {
@@ -62,48 +62,72 @@ export const AboutSection = [
     {
         id: 1,
         heading: 'Who we are',
-        text: `At Logic Swap, we are a team of experienced professionals dedicated
-        to providing exceptional technology solutions to businesses of all
-        sizes. With a deep understanding of the industry and a passion for
-        delivering high-quality work, we have built a reputation for excellence
-        and client satisfaction.`
-    },
-    {
-        id: 2,
-        heading: 'Our Background',
-        text: `With five years of experience in the technology sector, we
-        have witnessed the evolution of the digital landscape and the
-        transformative power of technology. Our journey has allowed us to refine
-        our skills, expand our knowledge, and stay ahead of the curve in a
-        rapidly changing industry.`
+        // text: `At Logic Swap, we are a team of experienced professionals dedicated
+        // to providing exceptional technology solutions to businesses of all
+        // sizes. With a deep understanding of the industry and a passion for
+        // delivering high-quality work, we have built a reputation for excellence
+        // and client satisfaction.`,
+        text: `At Logic Swap, we are a team of experienced professionals dedicated 
+        to providing exceptional technology solutions to businesses of all sizes. 
+        With our deep industry knowledge and commitment to delivering high-quality work, 
+        we have earned a reputation for excellence and client satisfaction.
+        With over five years of experience in the technology sector, we have witnessed the transformative power of technology 
+        and continually adapt to stay ahead in this rapidly changing industry.`,
+        img: about,
     },
     {
         id: 3,
         heading: 'Our Mission',
-        text: `Our mission is to empower businesses through innovative technology
-        solutions. We believe that technology can be a powerful enabler, driving
-        growth, efficiency, and success. We are committed to providing tailored
-        solutions that align with our clients' objectives and contribute to
-        their long-term success.`
+        text: `Our mission is to empower businesses through innovative technology solutions. We believe that 
+        technology can be a powerful enabler, driving growth, efficiency, and success. We are committed to 
+        providing tailored solutions that align with our clients' objectives and contribute to their 
+        long-term success. Together, let's unlock the full potential of your business.`,
+        img: mission,
     },
     {
         id: 4,
         heading: 'Our Values',
         text: [
-            `Excellence: We strive for excellence in every aspect of our work, setting
-            high standards for quality, performance, and customer satisfaction.`,
-            `Collaboration: We believe in building strong partnerships with our
-            clients, working collaboratively to understand their unique needs and
-            deliver solutions that exceed expectations.`,
-            `Integrity: We conduct our business with integrity, maintaining transparency, honesty, and ethical
-            practices in all our interactions.`,
-            ` Continuous Learning: We embrace a culture of continuous learning and improvement, staying updated with the
-            latest technologies, industry trends, and best practices.`,
-            `Customer-Centric Approach: Our clients are at the center of everything we do. We listen,
-            understand their challenges, and provide personalized solutions that
-            address their specific requirements.`
-
+            {
+                heading: 'Excellence',
+                icon: <FaAward/>,
+                content: 'Striving for excellence in every aspect of our work, setting high standards for quality and customer satisfaction.'
+            },
+            {
+                heading: 'Collaboration',
+                icon: <FaHandsHelping/>,
+                content: 'Building strong partnerships with clients, understanding unique needs, and exceeding expectations.'
+            },
+            {
+                heading: 'Integrity',
+                icon: <FaShieldAlt/>,
+                content: 'Conducting business with transparency, honesty, and ethical practices in all interactions.'
+            },
+            {
+                heading: 'Continuous Learning',
+                icon: <FaGraduationCap/>,
+                content: 'Embracing a culture of continuous learning, staying updated with the latest technologies and industry trends.'
+            },
+            {
+                heading: 'Customer-Centric Approach',
+                icon: <FaUsers/>,
+                content: 'Putting clients at the center, understanding challenges, and providing personalized solutions.'
+            },
+            {
+                heading: 'Cutting-Edge Technology',
+                icon: <FaCogs/>,
+                content: 'Staying at the forefront of technological advancements to deliver innovative solutions for business growth.'
+            }
         ]
+
+        // text: [
+        // 'Excellence: Striving for excellence in every aspect of our work, setting high standards for quality and customer satisfaction.',
+        // 'Collaboration: Building strong partnerships with clients, understanding their needs, and exceeding expectations.',
+        // 'Integrity: Conducting business with transparency, honesty, and ethical practices.',
+        // 'Continuous Learning: Embracing a culture of continuous learning and staying updated with the latest technologies and trends.',
+        // 'Customer-Centric Approach: Putting our clients at the center, understanding their challenges, and providing personalized solutions.',
+        // 'Cutting-Edge Technology: Embracing the forefront of technological advancements, delivering innovative solutions for business growth.'
+        // ]
     }
 ]
 
