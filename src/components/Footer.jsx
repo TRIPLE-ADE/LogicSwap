@@ -24,7 +24,7 @@ const Footer = () => {
                 </ul>
             </section>
             <section>
-                <h5 className={`${section.footerHeading}`}>Contact</h5>
+                <h5 className={`${section.footerHeading} text-center sm:text-left`}>Contact</h5>
                 <div  className={`${section.flexCenter}`}>
                     <div className='flex justify-center gap-5 sm:justify-start'>
                         {SocialLinks.map((socialLink) => (
