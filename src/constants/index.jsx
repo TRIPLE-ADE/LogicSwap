@@ -62,11 +62,6 @@ export const AboutSection = [
     {
         id: 1,
         heading: 'Who we are',
-        // text: `At Logic Swap, we are a team of experienced professionals dedicated
-        // to providing exceptional technology solutions to businesses of all
-        // sizes. With a deep understanding of the industry and a passion for
-        // delivering high-quality work, we have built a reputation for excellence
-        // and client satisfaction.`,
         text: `At Logic Swap, we are a team of experienced professionals dedicated 
         to providing exceptional technology solutions to businesses of all sizes. 
         With our deep industry knowledge and commitment to delivering high-quality work, 
@@ -119,15 +114,6 @@ export const AboutSection = [
                 content: 'Staying at the forefront of technological advancements to deliver innovative solutions for business growth.'
             }
         ]
-
-        // text: [
-        // 'Excellence: Striving for excellence in every aspect of our work, setting high standards for quality and customer satisfaction.',
-        // 'Collaboration: Building strong partnerships with clients, understanding their needs, and exceeding expectations.',
-        // 'Integrity: Conducting business with transparency, honesty, and ethical practices.',
-        // 'Continuous Learning: Embracing a culture of continuous learning and staying updated with the latest technologies and trends.',
-        // 'Customer-Centric Approach: Putting our clients at the center, understanding their challenges, and providing personalized solutions.',
-        // 'Cutting-Edge Technology: Embracing the forefront of technological advancements, delivering innovative solutions for business growth.'
-        // ]
     }
 ]
 
@@ -135,17 +121,17 @@ export const TestimonialsData = [
     {
       name: 'The Manager',
       company: 'Londri Pad',
-      message: "Working with Logic Swap Tech Solutions was a game-changer for our business. Their expertise and innovative solutions have significantly improved our operations and customer experience"
+      message: "Working with Logic Swap Tech. Solutions was a game-changer for our business. Their expertise and innovative solutions have significantly improved our operations and customer experience"
     },
     {
       name: 'The Members',
       company: 'Association',
-      message: 'We are extremely satisfied with the outstanding service provided by Logic Swap Tech Solutions. Their professionalism, attention to detail, and prompt communication have made them a valuable partner.',
+      message: 'We are extremely satisfied with the outstanding service provided by Logic Swap Tech. Solutions. Their professionalism, attention to detail, and prompt communication have made them a valuable partner.',
     },
     {
       name: 'The Chair Leaders',
       company: 'Association',
-      message: "Logic Swap Tech Solutions has truly exceeded our expectations. Their team's technical proficiency, dedication, and commitment to delivering exceptional results have been instrumental in our success.",
+      message: "Logic Swap Tech. Solutions has truly exceeded our expectations. Their team's technical proficiency, dedication, and commitment to delivering exceptional results have been instrumental in our success.",
     },
 ]
 
@@ -189,6 +175,10 @@ export const FaqData = [
     {
         question: "Can you provide training or documentation for using the web or mobile applications you develop?",
         answer: "Yes, we provide comprehensive training and documentation for using the web or mobile applications we develop. Our goal is to ensure that you and your team have the necessary knowledge and resources to effectively use and maintain the applications we deliver."
+    },
+    {
+        question: "Do you provide managed cloud computing services for Amazon Web Services (AWS), Microsoft Azure and others?",
+        answer: "Yes, we offer managed cloud computing services for AWS and Azure. Our team of experts is experienced in managing and optimizing cloud infrastructure on these platforms. We handle tasks such as server provisioning, monitoring, security, backup, and performance optimization, allowing you to focus on your core business while we take care of your cloud environment. With our managed services, you can ensure the reliability, scalability, and security of your cloud infrastructure, enabling you to leverage the full potential of AWS or Azure without the burden of day-to-day management."
     }
 ]
 
