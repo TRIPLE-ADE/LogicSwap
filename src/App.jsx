@@ -5,11 +5,11 @@ function App() {
     <div className="bg-neutral-200 font-poppins">
         <Header/>
         <Hero/> 
+        <CompanyLogos/>
         <Services/>
         <About/>
         <Testimonials/>
         <Faq/>
-        <CompanyLogos/>
         <Footer/>
     </div>
   )
