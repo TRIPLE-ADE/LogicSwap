@@ -21,7 +21,7 @@ const About = () => {
                 </div>
             </div>
           ) : ( 
-            <div className="flex flex-wrap items-center justify-center">
+            <div className={`flex flex-wrap items-center justify-center ${index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'}`}>
               <div className="w-full p-4 sm:w-1/2">
                 <h3 className="mb-4 text-2xl font-semibold">{about.heading}</h3>
                 <p className="text-lg leading-relaxed text-justify text-gray-700">
