@@ -1,4 +1,4 @@
-import { FaTwitter, FaLinkedinIn, FaInstagram, FaCode, FaShieldAlt, FaLightbulb, FaLaptopCode, FaNetworkWired, FaAward, FaHandsHelping, FaGraduationCap, FaUsers, FaCogs   } from "react-icons/fa" 
+import { FaTwitter, FaLinkedinIn, FaInstagram, FaCode, FaShieldAlt, FaLightbulb, FaLaptopCode, FaNetworkWired, FaCloud, FaAward, FaHandsHelping, FaGraduationCap, FaUsers, FaCogs   } from "react-icons/fa" 
 import { about, mission, client1, client2, client3 } from "../assets"
 
 export const NavLinks = [
@@ -54,8 +54,14 @@ export const ServiceCard = [
         icon: <FaNetworkWired/>,
         title: "Networking Services",
         text: " Ensure seamless connectivity and reliable network infrastructure with our solutions."
-
+    },
+    {
+        id: 6,
+        icon: <FaCloud/>,
+        title: "Cloud Computing",
+        text: "Scale, store, and deploy your applications with ease using cloud computing.",
     }
+
 ]
 
 export const AboutSection = [
